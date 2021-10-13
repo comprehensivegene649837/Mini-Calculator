@@ -1,4 +1,3 @@
-import os
 import random
 def game(you, comp):
     if comp==you:
@@ -20,9 +19,9 @@ def game(you, comp):
                 return True
 
 print("computer's turn : snake(s), water(w), gun(g): ")
-#print(input("computer's turn : snake(s), water(w), gun(g)"))
+
 randonN= random.randint(1, 3) #this means 1 to 3
-#print(comp, randonN)
+
 if randonN==1:
     comp= 's'
 elif randonN==2:
@@ -46,8 +45,3 @@ elif a:
 else:
     print("you lost!")
 
-
-
-os.system("pause")
-
-#b= input("your turn: snake(1), water(2), gun(3)"
